@@ -1,0 +1,22 @@
+* text=auto
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.slurm text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.gz binary
+
+# Preserve historical source, logs, and upstream legal texts byte for byte.
+tasks/hpl-hpcg/results/** -text
+tasks/llm-inference/llama/** -text
+tasks/llm-inference/example_text_completion.py -text
+tasks/llm-inference/config/** -text
+tasks/llm-inference/LICENSE -text
+tasks/llm-inference/USE_POLICY.md -text
+tasks/opencaeporo/src/** -text
+tasks/opencaeporo/case1/** -text
+tasks/opencaeporo/LICENSE -text
+tasks/opencaeporo/COPYING.GPL-3.0 -text

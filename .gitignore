@@ -1,0 +1,41 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Models, datasets, and profiling output
+checkpoints/
+datasets/
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.nsys-rep
+*.qdrep
+nsys-reports/
+log/
+
+# Build products
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.pdb
+CMakeCache.txt
+CMakeFiles/
+
+# Credentials and local editor state
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.baiduyun.uploading.cfg
